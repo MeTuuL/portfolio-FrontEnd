@@ -1,0 +1,19 @@
+#header{
+    height: 500vh;
+    width: 300px;
+    padding: 15px 30px;
+    background-color: var(--sideBGColor);
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: 0.4s;
+    z-index: 99;
+}
+
+@media only screen and (max-width: 1050px){
+    #header{
+        margin-left: -300px;
+    }
+}

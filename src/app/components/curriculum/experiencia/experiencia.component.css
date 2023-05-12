@@ -1,0 +1,44 @@
+.row{
+    padding: 50px 20px;
+    margin: auto;
+}
+
+.row h1{
+    font-size: 32px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+h1:first-of-type span{
+    color: black;
+    font-weight: 600;
+}
+
+div{
+    background-color: var(--sideBGColor);
+}
+h1{
+    display: inline;
+}
+h4{
+    font-size: 22px;
+    font-weight: 700;
+    display: block;
+    color: #fefefe;
+}
+
+.table td.fecha,
+.table td.desc {
+  color: #fefefe;
+}
+
+.btn-editar {
+    background-color: var(--themeColor);
+    color: #fefefe;
+}
+   
+.btn-editar:hover {
+    background-color: #0062cc;
+    color: #fefefe;
+}
+  

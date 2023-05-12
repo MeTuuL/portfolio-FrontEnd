@@ -1,0 +1,49 @@
+.contacto{
+    margin-left:300px;
+    background-color: var(--sideBGColor);
+    padding: 120px 30px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Righteous';
+    color: #f5f5f5;
+  }
+
+  /* Estilo para el formulario */
+  form {
+    background-color: var(--sideBGColor);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  label{
+    color: #f5f5f5;
+  }
+
+  input, textarea{
+    background-color: var(--sideBGColor);
+    color: #f5f5f5;
+  }
+
+  input:focus, textarea:focus {
+    background-color: transparent;
+    color: #f5f5f5;
+  }
+
+  /* Estilo para el botón Enviar */
+  button[type=submit] {
+    margin-top: 1rem;
+    background-color: var(--themeColor);
+  }
+
+  @media only screen and (max-width: 1050px){
+    .contacto{
+        margin-left: 0;
+    }
+}
+

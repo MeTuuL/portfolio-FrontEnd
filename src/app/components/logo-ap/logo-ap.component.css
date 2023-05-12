@@ -1,0 +1,21 @@
+.footer-logoAG{
+   text-align: center;
+   background-color: var(--sideBGColor);
+   width: 300px;
+   font-size: 14px;
+   letter-spacing: 0.6px;
+   padding: 10px;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   transition: 0.4s;
+   
+}
+.footer-logoAG img{
+   width: 130px;
+}
+@media only screen and (max-width: 1050px){
+   .footer-logoAG{
+       margin-left: -300px;
+   }
+}

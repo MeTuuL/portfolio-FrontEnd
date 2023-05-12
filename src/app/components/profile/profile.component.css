@@ -1,0 +1,30 @@
+.profile{
+    text-align: center;
+    margin: 10px 0;
+}
+.profile img{
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid var(--iconBGColor);
+}
+.profile h1{
+    color: white;
+    font-weight: 600;
+    font-family: 'Righteous';
+}
+.profile .redes a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 37px;
+    background-color: var(--iconBGColor);
+    color: white;
+    font-size: 18px;
+    margin: 1.5px;
+    transition: 0.4s;
+}
+.profile .redes a:hover{
+    background-color: var(--themeColor);
+}

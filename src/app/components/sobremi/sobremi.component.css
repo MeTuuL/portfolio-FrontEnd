@@ -1,0 +1,36 @@
+.sobremi{
+    margin-left:300px;
+    transition: 0.4s;
+    background-color: var(--sideBGColor);
+    color: #fefefe;
+    padding: 40px 30px;
+    padding-bottom: 80px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Righteous';
+    color: #fefefe;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.sobremi .contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1050px){
+    .sobremi{
+        margin-left: 0;
+    }
+}

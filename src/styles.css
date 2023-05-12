@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root{
+    --sideBGColor: #040b14;
+    --themeColor: #00A78E;
+    --iconBGColor: #2C2F3F;
+    --textColor: #525252;
+    --bgColor: #F7F7F7;
+    --foColor: #081729;
+}
+
+body{
+    zoom: 90%;
+}

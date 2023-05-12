@@ -1,0 +1,56 @@
+.skills{
+    margin-left:300px;
+    transition: 0.4s;
+    background-color: var(--sideBGColor);
+    padding: 40px 30px;
+    padding-bottom: 80px;
+}
+.skills h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Righteous';
+    color: #fefefe;
+}
+.skills p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #fefefe;
+}
+.skills h2{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    text-align: center;
+    color: #fefefe;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    padding: 20px;
+}
+
+.btn-editar {
+    background-color: var(--themeColor);
+    color: #fefefe;
+}
+   
+.btn-editar:hover {
+    background-color: #0062cc;
+    color: #fefefe;
+}
+@media only screen and (max-width: 1050px){
+    .skills{
+        margin-left: 0;
+    }
+}
